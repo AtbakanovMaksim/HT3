@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info">
+
+    <Appenders>
+        <File name="Result" fileName="src/main/resources/result.txt">
+        </File>
+    </Appenders>
+
+    <loggers>
+        <root level="info">
+            <appender-ref ref="Result"/>
+        </root>
+    </loggers>
+
+</Configuration>

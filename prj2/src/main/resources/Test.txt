@@ -1,0 +1,8 @@
+open "http://www.google.com" "3"
+checkPageTitle "Google Search Page"
+checkPageContains "The best search engine"
+open "https://www.onliner.by/" "3"
+checkPageContains "В центре нашей Галактики нашли следы тысяч черных дыр"
+checkPageTitle "Onliner.by"
+checkLinkPresentByHref "https://gc.onliner.by/favicon.ico"
+checkLinkPresentByName "Взяли $30 000 в долг на СТО и хотят делать машины для миллионеров"
